@@ -1,0 +1,33 @@
+
+---
+
+### **8. Instruções para o GitHub**
+1. **Crie o Repositório**:
+   - No GitHub, crie um novo repositório chamado `francy-dashboard`.
+   - Execute:
+     ```bash
+     git init
+     git add .
+     git commit -m "Initial commit"
+     git remote add origin https://github.com/seu-usuario/francy-dashboard.git
+     git push -u origin main
+     ```
+
+2. **Hospedagem**:
+   - Para testar localmente, use um servidor como XAMPP ou WAMP.
+   - Para deploy, hospede em um servidor PHP/MySQL (ex.: Heroku, AWS, ou um serviço de hospedagem como Hostinger).
+
+3. **Testes**:
+   - Teste o registro e login com diferentes emails e senhas.
+   - Verifique se os dados do dashboard (cards e tabela) refletem o banco de dados.
+   - Teste a responsividade em dispositivos móveis.
+
+---
+
+### **9. Melhorias Futuras**
+- **Paginação na Tabela**: Implemente paginação dinâmica com PHP e MySQL.
+- **Integração com GitHub API**: Exiba o número real de projetos no GitHub usando a API.
+- **Validação Avançada**: Adicione validação de formulários no frontend com JavaScript.
+- **Segurança**: Implemente CSRF tokens e proteção contra SQL injection (já parcialmente coberto com PDO).
+
+Este projeto agora é funcional, com autenticação, exibição de dados e gráficos, pronto para ser hospedado no GitHub. Substitua os links do GitHub e WhatsApp pelos seus próprios, e ajuste o banco de dados conforme necessário. Se precisar de mais ajuda, como integração com a API do GitHub ou mais gráficos, é só pedir!
